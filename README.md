@@ -1,11 +1,11 @@
 # Portfolio Website
 
-This is a simple portfolio website template that showcases your skills, projects, and contact information. The template is built using HTML, CSS, and a bit of PHP for form handling.
+This is a simple portfolio website template that showcases my skills, projects, and contact information. The template is built using HTML, CSS, and a bit of PHP for form handling.
 
 ## Features
 
 - Responsive design for various screen sizes.
-- Portfolio section to showcase your projects.
+- Portfolio section to showcase my projects.
 - Contact form to receive messages from visitors.
 - Easy customization of colors, content, and layout.
 
@@ -17,12 +17,7 @@ This is a simple portfolio website template that showcases your skills, projects
 4. Update the database configuration in `connection.php` file.
 5. Access the website using your web browser.
 
-## Usage
 
-- Edit the `portfolio.html` file to customize the content and layout of your portfolio.
-- Modify the `contact.css` file to style the contact form page.
-- Set up the PHP form handling in `traitement_formulaire.php` for the contact form.
-- Customize the `succes.php` page to display a success message after form submission.
 
 
 
