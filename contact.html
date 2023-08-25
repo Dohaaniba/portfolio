@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-me</title>
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+    <div class="contact-me">
+        
+        <form action="traitement_formulaire.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <select name="projectType" required>
+                <option value="" disabled selected>Select Project Type</option>
+                <option value="Website">Website</option>
+                <option value="E-commerce">E-commerce</option>
+                <option value="Other">Other</option>
+            </select>
+            <textarea name="projectDescription" placeholder="Project Description"></textarea>
+            <input type="text" name="budget" placeholder="Estimated Budget">
+            <input type="date" name="deadline" placeholder="Project Deadline">
+            <textarea name="comments" placeholder="Any Comments or Questions"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

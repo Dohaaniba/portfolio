@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.principale{
+    height: 100svh;
+    width: 100%;
+    background-image: url(../images/portfolio.jpg);
+    background-size: cover;/*psque chque pc a une dimension kandiroha bash tshed */
+    background-position: center;
+}
+nav{
+    display: flex;/*sera flexible pour ces fils wses fils seront flexibles */
+    align-items: center;/*allignement verticale */
+    justify-content: space-between;/*alignement horizontale */
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 24px;
+    cursor: pointer;
+}
+span{
+    color: rgb(212, 42, 71);
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 25px 15px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:rgb(212, 42, 71); 
+    transition: .4s;
+}
+.btn{
+    color: white;
+    background-color: rgb(212, 42, 71);
+    text-decoration: none;
+    border: solid 1px transparent;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: tranform .4s;
+    
+}
+.btn:hover{
+    transform: scale(1.2);
+    
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    font-size: 75px;
+    margin: 20px 0 20px;
+    color: white;
+}
+h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    margin-top: 10px;
+}
+h4{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 23px;
+
+}
+.newsletternewslatter form{
+    width: 350px;
+    max-width: 100%;
+    position: relative;
+
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 10px 14px;
+    border: solid 2px rgb(212, 42, 71);
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:rgb(212, 42, 71) ;
+    color: white;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #f5f5f5;
+    bottom: 4px;
+    right: 5px;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 15px;
+
+}
+button{
+    background-color:rgb(212, 42, 71) ;
+    border: solid 3px transparent;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 15px 30px 15px 30px;
+    color: white;
+}
+button:hover{
+    background-color: transparent;
+    border: solid 3px rgb(212, 42, 71) ;
+    transition: .4s;
+    cursor: pointer;
+}
+.service{
+    width: 100%;
+    background-color: #101010;
+    padding: 100px 0px;
+}
+.title h2 {
+    width: 1110px;
+    color: white;
+    font-size: 75px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 340px;
+    width: 340px;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background-color: #191919;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    display: block;
+    width: 50px;
+    height: 40px;
+    color: rgb(212, 42, 71) ;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 0 auto;
+}
+.card h5{
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.para p{
+   display: inline-block;
+   color: white;
+   font-size: 15px;
+   padding: 20px 10px ;
+   text-transform: capitalize;
+   line-height: 25px;
+}
+.para a{
+    text-decoration: none;
+}
+.card .button{
+    color: white;
+    border: solid 3px rgb(212, 42, 71);
+    border-radius: 20px;
+    background-color:transparent ;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.card .button:hover{
+    color: white;
+    border: solid 3px rgb(212, 42, 71);
+    z-index: -1;
+    transition: 0.8s;
+    background:rgb(212, 42, 71) ;
+}
+.contact-me{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #191919;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+    
+}
+.contact-me p{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact-me a{
+    text-decoration: none;
+}
+.contact-me .btn1{
+    color: white;
+    background-color: rgb(212, 42, 71) ;
+    border: solid 2px transparent;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact-me .btn1:hover{
+    color:  white;
+    border: solid 2px  rgb(212, 42, 71);
+    background-color: transparent;
+    transition: .4s;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 255px;
+    background-color: #101010;
+    padding: 20px 10px;
+    
+}
+footer p:nth-child(1){
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+footer p:nth-child(2){
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+.social{
+    display: inline-block;
+    
+}
+.social a{
+    text-decoration: none;
+}
+.social i{
+    align-items: center;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+.social a i.fa-brands.fa-facebook:hover {
+    color: blue;
+    transition: 0.4s;
+  }
+.social a i.fa-brands.fa-instagram:hover {
+    color:#833AB4;
+    transition: .4s;
+} 
+.social a i.fa-brands.fa-linkedin:hover {
+    color:#0A66C2;
+    transition: .4s;
+} 
+.end{
+    color:  rgb(212, 42, 71);
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 13px;
+}
+@media (max-width: 776px) {
+    .principale {
+        height: auto;
+        background-size: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 15px 0;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+    .content {
+        width: 100%;
+        height: 41svh;
+        background-color: #000;
+        top: 17%;
+        left: 0;
+        transform: translateY(-40%);
+        text-align: center;
+    }
+    .newsletter form input:first-child{
+        width: 90%;
+        
+    }
+    .newsletter form input:last-child {
+        margin-bottom: 1rem;
+        margin-right: 1.2rem
+    }
+
+    h1 {
+        font-size: 45px;
+        margin: 15px 0 15px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .newsletter form {
+        width: 100%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        padding: 80px 0;
+    }
+
+    .about img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
+
+    .about-text {
+        width: 100%;
+        margin-top: 85px;
+        
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .about-text h5 {
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-align: center;
+
+    }
+
+    .about-text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 1.5rem;
+    }
+
+    button {
+        font-size: 14px;
+        margin-left: 17rem;
+        margin-top: 1rem;
+    }
+
+    .service {
+        padding: 80px 0;
+    }
+
+    .title h2 {
+        font-size: 45px;
+        margin-left: -21rem;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+        margin: 20px auto;
+    }
+
+    .card i {
+        font-size: 30px;
+    }
+
+    .card h5 {
+        font-size: 18px;
+    }
+
+    .para p {
+        font-size: 13px;
+    }
+
+    .card .button {
+        padding: 8px 16px;
+    }
+
+    .contact-me p {
+        font-size: 35px;
+        margin-bottom: 10px;
+        margin-left: 4.3rem;
+    }
+
+    .contact-me .btn1 {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    footer p:nth-child(1),
+    footer p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .social i {
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    .end {
+        font-size: 11px;
+    }
+}
